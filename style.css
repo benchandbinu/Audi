@@ -1,0 +1,267 @@
+/* General */
+@import url('https://fonts.cdnfonts.com/css/audi-type-2');
+.body
+{
+  font-family: 'Audi Type', sans-serif;
+}
+/* Header*/
+.a-header
+{
+height: 72px;
+}
+.nav-align
+{
+  margin-left: 85px;
+  margin-right: 65px;
+}
+
+.car-dist
+{
+  z-index: 1; 
+  margin-right:260px;
+}
+/* Body */
+
+/* Body-Section 1 */
+.s1-i1-box
+{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 750px;
+  
+ 
+}
+.s1-i1
+{
+  height: 705px;
+  width: 100%;
+  object-fit: cover;
+ 
+}
+.s1-txt
+{
+  position: absolute;
+  top: 560px;
+  left: 60px;
+  line-height: 55px;
+ 
+}
+/* BUTTON */
+.btn-1
+{
+  background-color: black;
+  color:white ;
+  border: none;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.btn-1:hover
+{
+  background-color: grey;
+}
+.btn-2
+{
+  background-color: white;
+  color:black;
+  border: 2px;
+  padding: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-color: black;
+}
+.btn-2:hover
+{
+  opacity: 0.6;
+}  
+/* Body-Section 2 */
+.scrollable-div {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-behavior: smooth; /* For smooth scrolling */
+  
+}
+
+.scrollable-div img {
+  width: 280px;
+  height: 110px;
+ 
+
+}
+
+/* Optional: Hide scrollbar for WebKit browsers */
+.scrollable-div::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: Hide scrollbar for other browsers */
+.scrollable-div {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Style for the buttons */
+.scroll-btn {
+  background-color: #ffffff;
+  color: rgb(5, 5, 5);
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+  font-size: 80px;
+  height: 150px;
+  margin: 0px;
+}
+
+.scroll-btn:disabled {
+  background-color: #cccccc;
+}
+
+.scroll-container {
+  position: relative;
+}
+
+.scroll-btn-left, .scroll-btn-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.scroll-btn-left {
+  left: 0;
+}
+
+.scroll-btn-right {
+  right: 0;
+}
+
+/* Section 5 */
+.sec5-box
+{
+  position: absolute; 
+  top: 100px; 
+  left:50px ; 
+  height:348px; 
+  width:608px;  
+  background-color: white;
+}
+@media (max-width:576px)
+{
+  .sec5-box
+  {
+    width: 395px;
+    height: 300px;
+  }
+}
+
+/* Section 6 */
+.dealer-loc
+{
+  background-color: black; 
+  width:600px ;
+}
+
+@media (max-width:768px)
+{
+  .dealer-loc 
+  {
+    width: 739px;
+    height: 400px;
+  }
+}
+@media (max-width:576px)
+{
+  .dealer-loc 
+  {
+    width: 495px;
+    height: 400px;
+  }
+}
+
+.s6-img
+{
+  width: 932px;
+}
+
+@media screen and (max-width:768px)
+{
+  .s6-img
+  {
+    width: 740px;
+    
+  }
+}
+@media screen and (max-width:576px)
+{
+  .s6-img
+  {
+    width: 495px;
+    
+  }
+}
+
+/* Section 7 */
+.audi-connect
+{
+  background-color: black; 
+  width:600px ;
+}
+@media screen and (max-width:768px)
+{
+  .audi-connect
+  {
+    width: 739px;
+    height: 400px;
+  }
+}
+@media (max-width:576px)
+{
+  .audi-connect 
+  {
+    width: 495px;
+    height: 400px;
+  }
+}
+.s7-img
+{
+  width: 932px;
+}
+
+@media screen and (max-width:768px)
+{
+  .s7-img
+  {
+    width: 740px;
+    
+  }
+}
+@media screen and (max-width:576px)
+{
+  .s7-img
+  {
+    width: 495px;
+    
+  }
+}
+/* Section 8 */
+@media screen and (max-width:768px)
+{
+  .s8
+  {
+    margin-left: 15px;
+    
+  }
+}
+@media screen and (max-width:576px)
+{
+  .s8
+  {
+    margin-left: 10px;
+    
+  }
+}
+/* 
+
+/* Section 9 */
+/* Footer */
